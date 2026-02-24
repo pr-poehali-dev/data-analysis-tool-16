@@ -83,7 +83,7 @@ const Index = () => {
         <div className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-120px)] px-6 text-center">
           {/* Badge */}
           <div className="mb-6 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
-            <span className="text-sm font-medium">14 лет практики · Психолог-коуч</span>
+            <span className="text-sm font-medium">Психолог-коуч · Помогаю женщинам вернуться к себе</span>
           </div>
 
           {/* Main Headline */}
@@ -101,7 +101,7 @@ const Index = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
             <Button size="lg" className="bg-white text-black hover:bg-white/90 rounded-full px-8 py-4 text-lg">
-              Записаться на бесплатную консультацию
+              Хочу разобраться в себе — бесплатная консультация
             </Button>
             <Button
               size="lg"
