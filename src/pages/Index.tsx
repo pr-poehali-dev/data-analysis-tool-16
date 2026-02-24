@@ -57,7 +57,7 @@ const Index = () => {
           {/* Logo */}
           <div className="flex items-center gap-2 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
             <Heart className="w-5 h-5 text-rose-300" />
-            <span className="font-medium">Елена Смирнова</span>
+            <span className="font-medium">Ирина Зебницкая</span>
           </div>
 
           {/* Navigation Links */}
@@ -347,7 +347,7 @@ const Index = () => {
                       className="w-16 h-16 rounded-full object-cover"
                     />
                     <div>
-                      <h4 className="text-lg font-semibold">Елена Смирнова</h4>
+                      <h4 className="text-lg font-semibold">Ирина Зебницкая</h4>
                       <p className="text-gray-600">Психолог-коуч · 14 лет практики</p>
                     </div>
                   </div>
@@ -372,7 +372,7 @@ const Index = () => {
               <div className="lg:col-span-2">
                 <div className="flex items-center gap-2 mb-6">
                   <Heart className="w-6 h-6 text-rose-300" />
-                  <span className="text-xl font-semibold">Елена Смирнова</span>
+                  <span className="text-xl font-semibold">Ирина Зебницкая</span>
                 </div>
                 <p className="text-white/80 leading-relaxed text-pretty">
                   Психолог-коуч с 14-летним опытом. Помогаю женщинам в период кризиса 40 лет найти себя, свои ресурсы и путь к наполненной жизни.
@@ -440,7 +440,7 @@ const Index = () => {
 
             {/* Sub-footer */}
             <div className="border-t border-white/10 pt-8">
-              <p className="text-white/60 text-sm text-center">© 2025 Елена Смирнова · Психолог-коуч</p>
+              <p className="text-white/60 text-sm text-center">© 2025 Ирина Зебницкая · Психолог-коуч</p>
             </div>
           </div>
         </div>
