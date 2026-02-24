@@ -39,7 +39,7 @@ const Index = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-[#0D0B14] text-white">
+    <div className="min-h-screen bg-[#1C0F18] text-white">
       {/* Hero Section */}
       <div className="relative min-h-screen">
         {/* Background Image with Overlay */}
@@ -49,7 +49,7 @@ const Index = () => {
             backgroundImage: "url(https://cdn.poehali.dev/projects/b5a6f787-abfa-4359-9b1f-e6b33097a95a/files/ea4feb38-6bbc-419b-89a1-f8562ca746c8.jpg)",
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-[#0D0B14]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-[#1C0F18]" />
         </div>
 
         {/* Navigation */}
@@ -376,7 +376,7 @@ const Index = () => {
                       placeholder="Расскажите немного о себе и своём запросе..."
                     />
                   </div>
-                  <Button className="w-full bg-[#0D0B14] text-white hover:bg-black/80 rounded-lg py-3 font-normal text-base">
+                  <Button className="w-full bg-[#1C0F18] text-white hover:bg-black/80 rounded-lg py-3 font-normal text-base">
                     Отправить сообщение
                   </Button>
                 </form>
@@ -403,7 +403,7 @@ const Index = () => {
                       <p className="text-gray-600">Психолог-коуч · 14 лет практики</p>
                     </div>
                   </div>
-                  <Button className="w-full bg-[#0D0B14] text-white hover:bg-black/80 rounded-lg flex items-center justify-center gap-2" onClick={() => window.open('https://t.me/Irina_Prayz', '_blank')}>
+                  <Button className="w-full bg-[#1C0F18] text-white hover:bg-black/80 rounded-lg flex items-center justify-center gap-2" onClick={() => window.open('https://t.me/Irina_Prayz', '_blank')}>
                     <Send className="w-4 h-4" />
                     Написать в Telegram
                   </Button>
