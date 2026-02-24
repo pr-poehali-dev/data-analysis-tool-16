@@ -88,14 +88,14 @@ const Index = () => {
 
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-light tracking-tight mb-6 text-balance leading-tight">
-            Кризис 40 лет —<br />
-            <span className="text-rose-300">точка начала</span>,<br />
-            а не конца.
+            Всё есть, а внутри —<br />
+            <span className="text-rose-300">пустота и усталость</span>.<br />
+            Это знакомо?
           </h1>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-white/85 max-w-3xl mb-12 leading-relaxed text-pretty">
-            Помогаю женщинам 35–45 лет найти внутренние ресурсы, поставить цели и выйти из состояния «потерянности» к наполненной жизни.
+            Семья, работа, дом — вы справляетесь со всем. Но где-то потеряли себя и уже не помните, чего хотите именно вы. Я помогаю это найти.
           </p>
 
           {/* CTA Buttons */}
