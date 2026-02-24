@@ -129,8 +129,8 @@ const Index = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
                 <Star className="w-6 h-6 text-rose-300" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">14 лет практики</h3>
-              <p className="text-white/80 leading-relaxed">Сотни женщин прошли через кризис и нашли себя заново.</p>
+              <h3 className="text-xl font-semibold mb-4">14 лет рядом с людьми</h3>
+              <p className="text-white/80 leading-relaxed">Сотни женщин прошли через ощущение пустоты — и вышли к себе настоящей.</p>
             </div>
 
             {/* Личный подход */}
@@ -138,8 +138,8 @@ const Index = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
                 <ShieldCheck className="w-6 h-6 text-rose-300" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Полная конфиденциальность</h3>
-              <p className="text-white/80 leading-relaxed">Безопасное пространство, где можно говорить обо всём.</p>
+              <h3 className="text-xl font-semibold mb-4">Говорить можно обо всём</h3>
+              <p className="text-white/80 leading-relaxed">Никакого осуждения. Всё, что вы скажете — останется между нами.</p>
             </div>
 
             {/* Методика */}
@@ -147,8 +147,8 @@ const Index = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
                 <Sparkles className="w-6 h-6 text-rose-300" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Работающие методики</h3>
-              <p className="text-white/80 leading-relaxed">Научно обоснованные инструменты: коучинг, психология ресурсов.</p>
+              <h3 className="text-xl font-semibold mb-4">Без воды и общих слов</h3>
+              <p className="text-white/80 leading-relaxed">Работаем с конкретными инструментами — чтобы вы чувствовали результат, а не просто говорили о нём.</p>
             </div>
 
             {/* Онлайн */}
@@ -156,8 +156,8 @@ const Index = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
                 <Icon name="Video" size={24} className="text-rose-300" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Работаю онлайн</h3>
-              <p className="text-white/80 leading-relaxed">Сессии из любой точки мира, в удобное для вас время.</p>
+              <h3 className="text-xl font-semibold mb-4">В вашем темпе и ритме</h3>
+              <p className="text-white/80 leading-relaxed">Онлайн-сессии — из дома, в удобное время. Без лишних усилий с вашей стороны.</p>
             </div>
           </div>
         </div>
@@ -169,9 +169,9 @@ const Index = () => {
           <div className="rounded-3xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-12">
             {/* Section Header */}
             <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-balance">Ваш путь к себе</h2>
+              <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-balance">Как мы работаем</h2>
               <p className="text-xl text-white/80 max-w-3xl mx-auto text-pretty">
-                Четыре шага от «я не знаю, кто я сейчас» до уверенной женщины, которая знает, чего хочет.
+                От «я устала и не понимаю, чего хочу» — до ясности и живого ощущения своей жизни.
               </p>
             </div>
 
@@ -180,9 +180,9 @@ const Index = () => {
               <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 h-80 flex flex-col">
                 <div className="flex-1">
                   <div className="text-3xl font-bold text-rose-300/60 mb-4">01.</div>
-                  <h3 className="text-xl font-semibold mb-4">Диагностика</h3>
+                  <h3 className="text-xl font-semibold mb-4">Честный разговор</h3>
                   <p className="text-white/80 leading-relaxed text-sm">
-                    Вместе исследуем, где вы сейчас, что вас тяготит и какие ресурсы уже есть внутри.
+                    Разбираемся, что происходит прямо сейчас — без оценок и готовых ответов. Вы говорите, я слушаю и помогаю увидеть картину целиком.
                   </p>
                 </div>
               </div>
@@ -190,9 +190,9 @@ const Index = () => {
               <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 h-80 flex flex-col">
                 <div className="flex-1">
                   <div className="text-3xl font-bold text-rose-300/60 mb-4">02.</div>
-                  <h3 className="text-xl font-semibold mb-4">Постановка целей</h3>
+                  <h3 className="text-xl font-semibold mb-4">Что я хочу на самом деле?</h3>
                   <p className="text-white/80 leading-relaxed text-sm">
-                    Формулируем, чего вы по-настоящему хотите — не «надо», а «хочу». Ваши цели, ваш путь.
+                    Отделяем чужие ожидания от своих желаний. Находим то, что отзывается внутри — не «надо», а «хочу».
                   </p>
                 </div>
               </div>
@@ -200,9 +200,9 @@ const Index = () => {
               <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 h-80 flex flex-col">
                 <div className="flex-1">
                   <div className="text-3xl font-bold text-rose-300/60 mb-4">03.</div>
-                  <h3 className="text-xl font-semibold mb-4">Поиск ресурсов</h3>
+                  <h3 className="text-xl font-semibold mb-4">Сила, которая уже есть</h3>
                   <p className="text-white/80 leading-relaxed text-sm">
-                    Открываем внутренние силы, о которых вы, возможно, забыли. Работаем с ограничивающими убеждениями.
+                    Возвращаем доступ к внутренним ресурсам. Убираем убеждения, которые годами мешали двигаться вперёд.
                   </p>
                 </div>
               </div>
@@ -210,9 +210,9 @@ const Index = () => {
               <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 h-80 flex flex-col">
                 <div className="flex-1">
                   <div className="text-3xl font-bold text-rose-300/60 mb-4">04.</div>
-                  <h3 className="text-xl font-semibold mb-4">Действие и результат</h3>
+                  <h3 className="text-xl font-semibold mb-4">Жизнь, которая ваша</h3>
                   <p className="text-white/80 leading-relaxed text-sm">
-                    Вы выходите в жизнь с ясностью, уверенностью и конкретным планом. Я остаюсь рядом на этом пути.
+                    Вы выходите с ясностью, энергией и конкретными шагами. Не «когда-нибудь» — а уже сейчас.
                   </p>
                 </div>
               </div>
@@ -334,7 +334,7 @@ const Index = () => {
               <div className="space-y-8">
                 <div>
                   <p className="text-xl text-white/90 leading-relaxed text-pretty">
-                    Первый шаг — всегда самый важный. Напишите мне, и мы вместе разберёмся, как я могу помочь именно вам. Отвечаю в течение одного рабочего дня.
+                    Вы ничего не должны решать прямо сейчас. Просто напишите — и мы поговорим. Первая встреча бесплатна, без обязательств. Отвечаю в течение одного рабочего дня.
                   </p>
                 </div>
 
