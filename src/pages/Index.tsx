@@ -75,7 +75,7 @@ const Index = () => {
 
           {/* Action Buttons */}
           <div className="flex items-center gap-3">
-            <Button className="bg-white text-black hover:bg-white/90 rounded-full px-6">Записаться</Button>
+            <Button className="bg-white text-black hover:bg-white/90 rounded-full px-6" onClick={() => window.open('https://t.me/Irina_Prayz', '_blank')}>Записаться</Button>
           </div>
         </nav>
 
@@ -351,7 +351,7 @@ const Index = () => {
                       <p className="text-gray-600">Психолог-коуч · 14 лет практики</p>
                     </div>
                   </div>
-                  <Button className="w-full bg-[#0D0B14] text-white hover:bg-black/80 rounded-lg flex items-center justify-center gap-2">
+                  <Button className="w-full bg-[#0D0B14] text-white hover:bg-black/80 rounded-lg flex items-center justify-center gap-2" onClick={() => window.open('https://t.me/Irina_Prayz', '_blank')}>
                     <Mail className="w-4 h-4" />
                     Написать напрямую
                   </Button>
