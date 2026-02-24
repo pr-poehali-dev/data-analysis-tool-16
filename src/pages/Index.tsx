@@ -1,4 +1,4 @@
-import { Heart, Sparkles, ShieldCheck, Star, Plus, Minus, Mail } from "lucide-react"
+import { Heart, Sparkles, ShieldCheck, Star, Plus, Minus, Send } from "lucide-react"
 import Icon from "@/components/ui/icon"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
@@ -352,8 +352,8 @@ const Index = () => {
                     </div>
                   </div>
                   <Button className="w-full bg-[#0D0B14] text-white hover:bg-black/80 rounded-lg flex items-center justify-center gap-2" onClick={() => window.open('https://t.me/Irina_Prayz', '_blank')}>
-                    <Mail className="w-4 h-4" />
-                    Написать напрямую
+                    <Send className="w-4 h-4" />
+                    Написать в Telegram
                   </Button>
                 </div>
               </div>
