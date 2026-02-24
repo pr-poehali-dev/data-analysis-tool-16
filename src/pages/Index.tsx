@@ -231,6 +231,58 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Reviews Section */}
+      <section className="relative z-10 py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-6">Что говорят клиенты</h2>
+            <p className="text-xl text-white/80 max-w-2xl mx-auto">
+              Реальные истории женщин, которые решились на первый шаг.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 flex flex-col gap-6">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-rose-300 text-rose-300" />)}
+              </div>
+              <p className="text-white/85 leading-relaxed flex-1">
+                «Я пришла с ощущением, что жизнь прошла мимо. После трёх сессий с Ириной впервые за годы почувствовала, что у меня есть право хотеть чего-то для себя. Это было откровение.»
+              </p>
+              <div>
+                <p className="font-semibold">Марина, 42 года</p>
+                <p className="text-white/50 text-sm">Руководитель отдела, Москва</p>
+              </div>
+            </div>
+
+            <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 flex flex-col gap-6">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-rose-300 text-rose-300" />)}
+              </div>
+              <p className="text-white/85 leading-relaxed flex-1">
+                «Думала, что просто устала от работы. Оказалось — я давно живу не свою жизнь. Ирина помогла это увидеть мягко, без осуждения. Сейчас я строю то, что хочу именно я.»
+              </p>
+              <div>
+                <p className="font-semibold">Светлана, 38 лет</p>
+                <p className="text-white/50 text-sm">Предприниматель, Санкт-Петербург</p>
+              </div>
+            </div>
+
+            <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 flex flex-col gap-6">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-rose-300 text-rose-300" />)}
+              </div>
+              <p className="text-white/85 leading-relaxed flex-1">
+                «Полгода не могла понять, почему всё есть, а радости нет. Ирина не даёт готовых ответов — она помогает найти свои. Это совершенно другое ощущение, чем любая книга по саморазвитию.»
+              </p>
+              <div>
+                <p className="font-semibold">Ольга, 45 лет</p>
+                <p className="text-white/50 text-sm">Врач, Екатеринбург</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="relative z-10 py-24 px-6">
         <div className="max-w-7xl mx-auto">
