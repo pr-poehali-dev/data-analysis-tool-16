@@ -100,7 +100,7 @@ const Index = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
-            <Button size="lg" className="bg-white text-black hover:bg-white/90 rounded-full px-8 py-4 text-lg">
+            <Button size="lg" className="bg-white text-black hover:bg-white/90 rounded-full px-8 py-4 text-lg" onClick={() => window.open('https://t.me/Irina_Prayz', '_blank')}>
               Хочу разобраться в себе — бесплатная консультация
             </Button>
             <Button
